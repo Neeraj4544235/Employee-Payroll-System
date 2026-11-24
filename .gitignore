@@ -1,0 +1,18 @@
+# Java build output
+out/
+build/
+*.class
+
+# Local SQLite database (runtime data)
+payroll.db
+payroll.db-shm
+payroll.db-wal
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Downloaded dependency (run scripts fetch this on first run)
+lib/*.jar
